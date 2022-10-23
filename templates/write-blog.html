@@ -1,0 +1,42 @@
+{% extends 'my-blogs.html' %}
+<head>
+  <meta charset="utf-8">
+  <title>{% block title %}{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+ <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ </head>
+
+
+{% block sub_content %}
+<div class="text-center">
+   <h1>Write a New Blog Post</h1>
+</div>
+
+<form method="POST">
+
+   <div class="form-group">
+      <label for="title">Title</label>
+      <input type="text" class="form-control" id="title" name="title" placeholder="Enter a Title">
+   </div>
+
+   <div class="form-group">
+      <label for="body">Body</label>
+      <textarea type="text" class="form-control ckeditor" id="body" name="body"
+         placeholder="Enter Your Text Here"></textarea>
+   </div>
+
+       <a href="{{ url_for('my_blogs') }}" class="btn btn-dark ">Submit</a></p>
+
+      </div>
+</form>
+<p class="img-line">
+	<img src="https://pbs.twimg.com/media/FYKnPvJWYAEiLAp?format=jpg&name=900x900" alt="Картинка 1" width="500px" height="500px">
+	<img src="https://ustaliy.ru/wp-content/uploads/2020/04/8b0df106938b75b2624cbebb311a4d829230aef3r1-2000-1200v2_uhq.jpg" alt="Картинка 2" width="500px" height="500px">
+	<img src="https://i.pinimg.com/736x/ee/50/8c/ee508cfa807712136c4562869fe43757.jpg" alt="Картинка 3" width="490px" height="500px">
+	</p>
+{% endblock %}
+
+

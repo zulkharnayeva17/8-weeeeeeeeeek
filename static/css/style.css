@@ -1,0 +1,134 @@
+
+body {
+  background-color: #435165;
+  margin: 0;
+}
+
+.login-box
+ {
+  height: 50%;
+  width: 80%;
+
+  margin-left: 10%;
+  margin-top: 10%;
+  position: relative;
+       background: #d1e0d7;
+
+ }
+ .login-header
+ {
+  text-align: center;
+ font-family: "Times New Roman", Georgia, Serif;
+  font-size: 40px;
+
+  color: #083319;
+  position: relative;
+
+ }
+ .login-body
+ {
+  padding: 20px;
+  line-height: 2;
+ }
+.msg {
+color: #d1e0d7;
+
+padding: .75rem 1.25rem;
+   margin-bottom: 1rem;
+   border: 1px solid transparent;
+   border-radius: .25rem;
+}
+.main{
+ margin-top:50px;
+}
+
+h1.title {
+font-size: 50px;
+font-family: 'Passion One', cursive;
+font-weight: 400;
+}
+
+hr{
+width: 10%;
+color: #d1e0d7;
+}
+
+.form-group{
+margin-bottom: 15px;
+font-size: 30px;
+}
+
+label{
+margin-bottom: 15px;
+
+}
+
+input,
+input::-webkit-input-placeholder {
+   font-size: 20px;
+   padding-top: 3px;
+}
+
+.main-login{
+ background-color: #d1e0d7;
+   /* shadows and rounded borders */
+   -moz-border-radius: 2px;
+   -webkit-border-radius: 2px;
+   border-radius: 2px;
+   -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+   -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+.form-control {
+   height: auto!important;
+padding: 8px 12px !important;
+}
+.input-group {
+   -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
+   -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
+   box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
+}
+.main-center{
+ margin-top: 30px;
+ margin: 0 auto;
+ max-width: 400px;
+   padding: 10px 40px;
+background:#5b6d7c;
+    color: #d1e0d7;
+   text-shadow: none;
+-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+
+}
+span.input-group-addon i {
+   color: #d1e0d7;
+   font-size: 17px;padding:10px;
+}
+
+.login-button{
+margin-top: 5px;
+}
+
+.login-register{
+font-size: 11px;
+text-align: center;
+}
+
+.site-header {
+   background-color: rgba(0, 0, 0, .85);
+   -webkit-backdrop-filter: saturate(180%) blur(20px);
+   backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+color:#fff;
+}
+
+.img-line {
+		border: 1px solid #55c5e9; /* Рамка вокруг фотографии */
+		padding: 1px; /* Расстояние от картинки до рамки */
+		background: #666; /* Цвет фона */
+		margin-right: 10px; /* Отступ справа */
+		margin-bottom: 10px; /* Отступ снизу */
+    }
